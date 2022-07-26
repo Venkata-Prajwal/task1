@@ -1,0 +1,29 @@
+Task -1
+
+Difference between HTTP and HTTPS
+
+HTTP: HTTP stands for HyperText Transfer Protocol
+HTTPS: HTTPS stands for HyperText Transfer Protocol Secure
+
+HTTP:
+-	The HTTP protocol allows us to transfer the data from the server to the client.
+-	An HTTP is an application layer protocol that comes above the TCP layer. It has provided some standard rules to the web browsers and servers, which they can use to communicate with each other.
+-	The transaction is completed between the web browser and the server, the connection gets lost.
+-	The HTTP protocol does not provide the security for the data
+-	It is written in the address bar as http://.
+-	It is an application layer protocol.
+
+HTTPS:
+-	This protocol allows transferring the data in an encrypted form.
+-	In modern browsers such as chrome, both the protocols, i.e., HTTP and HTTPS, are marked differently. To provide encryption, HTTPS uses an encryption protocol known as Transport Layer Security, it is referred to as a Secure Sockets Layer (SSL). 
+-	It is a secure protocol, so it is used for those websites that require to transmit the bank account details or credit card numbers.
+-	It is secure as it sends the encrypted data which hackers cannot understand.
+-	It is written in the address bar as https://.
+-	It is a transport layer protocol.
+
+
+Objects and its internal representation:
+-	The Object class represents one of JavaScript's data types. It is used to store various keyed collections and more complex entities. Objects can be created using the Object() constructor
+-	Nearly all objects in JavaScript are instances of Object; a typical object inherits properties from Object.prototype, although these properties may be overridden.
+-	When altering the behavior of existing Object.prototype methods, consider injecting code by wrapping your extension before or after the existing logic.
+-	An object is a reference data type. Variables that are assigned a reference value are given a reference or a pointer to that value. That reference or pointer points to the location in memory where the object is stored. The variables don’t actually store the value. 
